@@ -39,7 +39,7 @@ Solution build should demonstrate below capabilities:
 
 
 <h2>Project Documentation</h2>
-Click [here](https://github.com/vdharmaraj/PGDO_CM_Project_1/blob/94ea3999f5bc533aa83acb38aca43017a341ea99/PG%20DO%20-%20Configuration%20Management%20with%20Chef,%20Puppet%20and%20Ansible_Project-1_Vignesh_Dharmaraj.pdf) to access the project documentation I have created to submit for my DevOps PG certification program requirements
+Click [here](https://github.com/KirtiLipu/PGDO_CM_Project_1/blob/main/PG%20DO%20-%20Configuration%20Management%20with%20Chef%2C%20Puppet%20and%20Ansible_Project-1.pdf) to access the project documentation I have created to submit for my DevOps PG certification program requirements
 
 
 
