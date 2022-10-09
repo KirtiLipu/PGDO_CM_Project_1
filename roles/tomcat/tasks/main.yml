@@ -52,6 +52,6 @@
   
 - name: wait for tomcat to start
   wait_for:
-    port: {{http_port}}
+    port: "{{http_port}}"
     delay: 60
     timeout: 500
