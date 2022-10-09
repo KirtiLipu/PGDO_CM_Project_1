@@ -8,7 +8,7 @@
     # cache_valid_time: 3600
   
    - name: install maven
-     apt: name=maven state=latest
+     yum: name=maven state=latest
 
    - name: Maven build to generate war file
      shell: mvn package
