@@ -38,7 +38,6 @@
     mode: 0777
   become: true
   
-
 - name: copy war file
   copy: src=./target/LoginWebApp-1.war dest=/opt/apache-tomcat-9.0.68/webapps/
 
@@ -52,4 +51,7 @@
   shell: /etc/init.d/tomcat.sh start
   
 - name: wait for tomcat to start
-  wait_for: port={{http_port}}
+  wait_for:
+    port: {{http_port}}
+    delay: 60
+    timeout: 500
